@@ -1,0 +1,89 @@
+﻿body {
+    background-color:whitesmoke;
+        
+}
+div[class="header"]{
+    font-size:xx-large;
+    color:#007df1;
+   
+}
+div[class="intialLinks"]{
+    margin-top:18%;
+}
+div[class="intialLinks"] a{
+    text-decoration:none;
+    font-size:30px;
+    padding:8px;
+    padding-right:15px;
+}
+div[class="intialLinks"] a:hover{
+    background-color:black;
+    color:white;
+}
+div[class="loginBox"]{
+    background-color:white;
+    width:40%;
+    height:380px;
+    margin-top:8%;
+    border-radius:2px;
+}
+input{
+    padding:6px 6px;
+    display:block;
+    width:300px;
+    font-size:15px; 
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+#logInBtn{
+      width:318px;
+margin-left:0%;
+border:none;
+background-color:#4CAF50;
+color:white;
+font-size:19px;
+border-radius:2px;
+cursor:pointer;
+}
+div[class="loginBox"] label{
+    margin-left:-47%
+}
+div[class="loginBox"] a{
+    margin-left:-34%;
+}
+#formHeadind{
+    font-size:26px;
+    display:block;
+    color:white;
+    padding:14px;
+
+
+    
+}
+#banner{
+    height:59px;
+    background-color:black;
+    align-content:center;
+}
+#error{
+    color:red;
+    display:none;
+    font-size:18px;
+}
+#SignupBox{
+    background-color:white;
+    width:40%;
+    height:550px;
+    margin-top:4%;
+    border-radius:2px;
+}
+#signUp td{
+    padding:6px;
+}
+#oned{
+    display:none;
+}
